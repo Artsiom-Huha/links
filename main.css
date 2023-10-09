@@ -1,5 +1,4 @@
 .container-1 a:nth-last-of-type(1n+1){
-    color: green;
     padding: 5px;
     border-right: 2px red solid;
 }
