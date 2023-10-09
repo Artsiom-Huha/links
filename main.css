@@ -1,8 +1,10 @@
-.container-1 a:nth-child(-n+4){
+.container-1 a:nth-last-of-type(1n+1){
     color: green;
     padding: 5px;
     border-right: 2px red solid;
-    
+}
+.container-1 a:last-child{
+    border-right: none;
 }
 
 .container-1 a:hover{
